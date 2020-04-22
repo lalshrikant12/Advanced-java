@@ -16,7 +16,7 @@ public class AddServlet extends HttpServlet
 		
 		int k=i+j;
 		k=k*k;
-		res.sendRedirect("sq?k="+k);
+		res.sendRedirect("sq?k="+k);   //URL rewriting
 		
 		//req.setAttribute("k", k);
 		//RequestDispatcher rd = req.getRequestDispatcher("sq");
